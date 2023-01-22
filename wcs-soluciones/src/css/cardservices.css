@@ -1,0 +1,32 @@
+.contenedorservicios {
+  display: flex;
+  text-align: justify;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-textservice {
+  display: flex;
+  align-items: flex-end;
+}
+
+.contenedorservicios>div {
+  margin-top: 1rem;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.contenedorservicios .card>img {
+  width: 284px;
+  height: 179px;
+}
+
+.contenedorservicios .card {
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(7, 92, 34, 1);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(7, 92, 34, 1);
+  box-shadow: 0px 1px 5px 0px rgba(7, 92, 34, 1);
+
+}

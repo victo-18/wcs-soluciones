@@ -1,0 +1,43 @@
+.contenedorcontaus {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.contenedorcontaus col {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin: 0.5rem;
+}
+
+.container_card_info p {
+  margin: 0;
+  display: inline-block;
+}
+
+.container_card_info i {
+  margin-right: 0.5rem;
+  font-size: 1rem;
+}
+
+.container_card_info {
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(54, 53, 53);
+  color: white;
+  padding-left: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-right: 1rem;
+}
+
+.Contactus .card {
+  border: none;
+}

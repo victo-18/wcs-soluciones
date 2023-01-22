@@ -1,0 +1,19 @@
+.buttons_app_todos {
+  background-color: #006c0f;
+  color: #fff;
+}
+
+.buttons_app_pendientes {
+  background-color: #187a1f;
+  color: #fff;
+}
+
+.buttons_app_agendadas {
+  background-color: #29892d;
+  color: #fff;
+}
+
+.buttons_app_finalizadas {
+  background-color: #37983b;
+  color: #fff;
+}

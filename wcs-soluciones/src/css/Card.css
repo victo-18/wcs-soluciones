@@ -1,0 +1,9 @@
+.cardcontenedor {
+  display: flex;
+  border: 1px;
+}
+
+.card-bodycontenedor {
+  background-color: black;
+}
+

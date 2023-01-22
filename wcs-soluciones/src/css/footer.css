@@ -1,0 +1,71 @@
+.infoempresa {
+  display: flex;
+}
+
+footer h2 {
+  color: white;
+  font-size: 25px;
+}
+
+footer {
+  position: relative;
+  bottom: 0px;
+  margin: 0;
+}
+
+.footers > div {
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+a img {
+  width: 40px;
+}
+
+.footers {
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #1a3400;
+}
+
+.footers {
+  color: white;
+  font-size: 25px;
+}
+
+.footers .datosempresa {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 17.6px;
+  color: white;
+}
+
+.redessociales {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: baseline;
+  flex-direction: row;
+}
+
+.redessociales i {
+  font-size: 50px;
+  border-spacing: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+@media (min-width: 767.98px) {
+  footer {
+    position: relative;
+    bottom: -0.9rem;
+    margin: 0;
+  }
+}

@@ -1,0 +1,125 @@
+.avatar {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  background-color: rgb(189, 189, 189);
+  color: white;
+  width: 3rem;
+  height: 3rem;
+}
+
+.card-custom {
+  display: inline-block;
+}
+
+.client-contact:hover {
+  cursor: pointer;
+}
+
+.client-contact .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#error-message {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+
+#error-message > * {
+  user-select: none;
+}
+
+#error-message span {
+  z-index: 2;
+}
+
+#error-message hr {
+  margin: 0.5rem !important;
+}
+
+#error-text {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 1.5rem;
+}
+
+.bg-img-error {
+  z-index: 0;
+  width: 50%;
+  object-fit: cover;
+}
+
+.img-error {
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.client-contact {
+  padding: 1rem;
+  margin: -1px;
+}
+
+#reload-customers button span {
+  font-size: xx-large;
+  margin: 0;
+  padding: 0;
+}
+
+#reload-customers button {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #060;
+  overflow: hidden;
+  width: 4rem;
+  height: 4rem;
+  margin: 2rem;
+}
+
+.bg-theme {
+  background-color: #060;
+}
+
+.text-white {
+  color: white;
+}
+
+#info-customer .bi {
+  color: white;
+}
+
+#header-info {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowra;
+}
+
+/* #info-customer {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+} */
+
+@media (max-width: 767.98px) {
+  #error-text {
+    width: 90%;
+  }
+
+  .bg-img-error {
+    width: 30rem;
+  }
+}

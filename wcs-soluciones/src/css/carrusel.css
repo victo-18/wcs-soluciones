@@ -1,0 +1,13 @@
+.contenedor__carousel{
+    border-left: 2rem;
+    border-right: 2rem;
+}
+.carousel__inner--img{
+    width: 100%;
+    height: 30rem;  
+}
+.carousel-control-next,
+.carousel-control-prev:hover{
+    
+    background-color: transparent !important;
+}

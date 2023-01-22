@@ -1,0 +1,52 @@
+.about {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.about header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+    url(../images/fondo_header2.jpg);
+  height: 65vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+header h1 {
+  margin: 0;
+  color: white;
+  text-transform: capitalize;
+  font-size: 47px;
+  padding-top: 350px;
+}
+
+section .card {
+  margin-top: 3rem;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+section .card img {
+  height: 30rem;
+  margin: 1rem;
+  width: auto;
+  object-fit: cover;
+}
+
+section .card .card-text {
+  width: 25rem;
+  padding: 3rem;
+  margin: 1rem;
+  background-color: #ddd;
+  border-radius: 28px;
+  border-bottom: 2.5px solid #2ac91e;
+}
+
+@media screen and (max-width: 1080px) {
+  section .card img {
+    width: 70%;
+  }
+}

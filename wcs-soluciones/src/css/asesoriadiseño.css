@@ -1,0 +1,60 @@
+.asesoriadiseño .card-title {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  align-content: stretch;
+}
+
+.asesoriadiseño .element.style {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.asesoriadiseño .row .col-sm-6 .card {
+  border: none;
+}
+.asesoriadiseño .card .card-body > img {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  border-radius: 150px;
+  border-style: solid;
+  align-items: center;
+  border-color: #2ac91e;
+  margin: auto;
+}
+
+.asesoriadiseño .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.asesoriadiseño .row .col-sm-6 .card .card-body {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.asesoriadiseño .col-sm-6 .card .card-body .card-text {
+  padding: 3rem;
+  margin: 1rem;
+  background-color: #ddd;
+  border-radius: 28px;
+  border-bottom: 2.5px solid #2ac91e;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.asesoriadiseño .row {
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}

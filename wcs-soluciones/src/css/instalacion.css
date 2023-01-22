@@ -1,0 +1,56 @@
+.contenedorinstalacion .card-title {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  align-content: stretch;
+}
+
+element.style {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.contenedorinstalacion .row .col-sm-6 .card {
+  border: none;
+}
+
+.contenedorinstalacion .card-body > img {
+  display: flex;
+  width: 300px;
+  height: 300;
+  border-radius: 150rem;
+  border-style: solid;
+  align-items: center;
+  margin: auto;
+  border-color: #2ac91e;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contenedorinstalacion .row .col-sm-6 .card .card-body {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.contenedorinstalacion .col-sm-6 .card .card-body .card-text {
+  padding: 3rem;
+  margin: 1rem;
+  background-color: #ddd;
+  border-radius: 28px;
+  border-bottom: 2.5px solid #2ac91e;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}

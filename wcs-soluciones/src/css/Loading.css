@@ -1,0 +1,25 @@
+#modal-loading {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal-loading div {
+  width: 3rem;
+  height: 3rem;
+  font-size: x-large;
+}
+
+#modal-loading > span {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+#modal-content {
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}

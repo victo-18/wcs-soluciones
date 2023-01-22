@@ -1,0 +1,9 @@
+.alert {
+  display: flex;
+  flex-direction: row;
+  margin: 50;
+  align-items: stretch;
+  width: 0px;
+  height: 0px;
+  top: 0;
+}

@@ -14,10 +14,10 @@ export default function Asesoriainstalacion() {
         <div className="col-sm-6">
           <div className="card">
             <div className="card-body">
-              <img src={instalacion} className="card-img-top" alt="..." />
-              <img src={instalacion2} className="card-img-top" alt="..." />
-              <img src={instalacion3} className="card-img-top" alt="..." />
-              <img src={instalacion4} className="card-img-top" alt="..." />
+              <img src={instalacion} className="card-img-top"  alt="imagen instalacion"/>
+              <img src={instalacion2} className="card-img-top" alt="imagen instalacion" />
+              <img src={instalacion3} className="card-img-top" alt="imagen instalacion" />
+              <img src={instalacion4} className="card-img-top" alt="imagen instalacion" />
             </div>
           </div>
         </div>

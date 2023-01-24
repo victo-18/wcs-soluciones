@@ -49,7 +49,9 @@ function Index() {
 
       <div className="nosotros">
         <h2>Sobre nosotros</h2>
+        <div className="nosotros--img">
         <img src={fondo_header2} className="img-fluid" alt="" />
+        </div>
         <div className="card">
           <div className="card-body">
             <p className="card-textindex2">

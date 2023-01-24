@@ -18,41 +18,42 @@ export default class Footer extends Component {
                 <span>Cali, Valle del Cauca</span>
               </div>
             </div>
-            <div className="redessociales">
-              <a
-                href="https://www.facebook.com/WCS-Soluciones-en-Riego-1512205902328859"
-                className="fb"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="bi bi-facebook "></i>
-              </a>
-              <a
-                href="https://www.youtube.com/channel/UC5udBdYknJxo00VBsLp-1pA/UC8OtO9ASy4lo1FrPZazk1-A/about"
-                className="ytb"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="bi bi-youtube"></i>
-              </a>
-              <a
-                href="https://web.whatsapp.com/"
-                className="wsp"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="bi bi-whatsapp"></i>
-              </a>
-              <a
-                href="https://twitter.com/wcsriego?t=c8MZaE_gDBRNTgep60gGOg"
-                className="twt"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="bi bi-twitter"></i>
-              </a>
-            </div>
           </div>
+          <div className="redessociales">
+            <a 
+              href="https://www.facebook.com/WCS-Soluciones-en-Riego-1512205902328859"
+              className="fb"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="bi bi-facebook "></i>
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UC5udBdYknJxo00VBsLp-1pA/UC8OtO9ASy4lo1FrPZazk1-A/about"
+              className="ytb"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="bi bi-youtube"></i>
+            </a>
+            <a
+              href="https://web.whatsapp.com/"
+              className="wsp"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="bi bi-whatsapp"></i>
+            </a>
+            <a
+              href="https://twitter.com/wcsriego?t=c8MZaE_gDBRNTgep60gGOg"
+              className="twt"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="bi bi-twitter"></i>
+            </a>
+          </div>
+
         </div>
       </footer>
     );

@@ -14,10 +14,10 @@ export default function Asesoriamantenimiento() {
         <div className="col-sm-6">
           <div className="card">
             <div className="card-body">
-              <img src={servicios3} className="card-img-top" alt="..." />
-              <img src={mantenimiento1} className="card-img-top" alt="..." />
-              <img src={mantenimiento2} className="card-img-top" alt="..." />
-              <img src={mantenimiento3} className="card-img-top" alt="..." />
+              <img src={servicios3} className="card-img-top"     alt="imagen mantenimiento" />
+              <img src={mantenimiento1} className="card-img-top" alt="imagen mantenimiento" />
+              <img src={mantenimiento2} className="card-img-top" alt="imagen mantenimiento" />
+              <img src={mantenimiento3} className="card-img-top" alt="imagen mantenimiento" />
             </div>
           </div>
         </div>

@@ -17,6 +17,7 @@
   background-size: cover;
   background-position: center;
 }
+
 /* @media(min-width: 768px){
   header .container_info {
     position: absolute;
@@ -53,7 +54,7 @@ header .container_info .col {
 .header_superior h1 {
   margin: 0;
   color: white;
-  text-transform: uppercase !important ;
+  text-transform: uppercase !important;
   font-size: 135px;
   padding-top: 45px;
 }
@@ -61,7 +62,7 @@ header .container_info .col {
 .header_superior h1 div {
   margin: 0;
   color: white;
-  text-transform: uppercase !important ;
+  text-transform: uppercase !important;
   font-size: 70px;
 }
 
@@ -75,7 +76,7 @@ body p {
   margin-bottom: 40px;
 }
 
-.header_superior > h3 {
+.header_superior>h3 {
   font-size: 2.7rem;
   margin: 0;
   color: #fff !important;
@@ -97,7 +98,7 @@ button {
   color: white;
   font-size: 18px;
   margin-bottom: 10px;
-  text-transform: uppercase !important ;
+  text-transform: uppercase !important;
 }
 
 button:hover {
@@ -108,6 +109,19 @@ button:hover {
 section.servicios {
   background-color: #dddddd;
   padding: 15px;
+}
+
+.nosotros--img {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.img-fluid{
+  border-radius: 5%;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 1);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 1);
+
 }
 
 .servicios .contenedor-service {
@@ -182,7 +196,6 @@ section.Contacto h2 {
 }
 
 .contenedor-service img:hover {
-  -webkit-animation: shadow-drop-2-center 0.4s
-    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: shadow-drop-2-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }

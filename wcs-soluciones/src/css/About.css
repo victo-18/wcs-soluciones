@@ -21,6 +21,13 @@ header h1 {
   padding-top: 350px;
 }
 
+.card-img-right {
+  border-radius: 5%;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 1);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 1);
+}
+
 section .card {
   margin-top: 3rem;
   flex-direction: row-reverse;

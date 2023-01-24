@@ -13,7 +13,7 @@ footer {
   margin: 0;
 }
 
-.footers > div {
+.footers>div {
   justify-content: space-between;
   align-items: center;
   align-content: center;
@@ -24,16 +24,18 @@ a img {
 }
 
 .footers {
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   justify-content: space-between;
   padding: 1rem;
   background-color: #1a3400;
-}
-
-.footers {
   color: white;
   font-size: 25px;
 }
+
+
 
 .footers .datosempresa {
   display: flex;
@@ -44,8 +46,27 @@ a img {
   align-items: flex-start;
   font-size: 17.6px;
   color: white;
+
 }
 
+@media(min-width: 768px) {
+  .datosempresa {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+}
+.d-flex{
+margin-left: 1.5rem;
+}
+
+@media(min-width: 768px){
+  .redessociales{
+    margin-right: 1rem;
+    column-gap: 1rem;
+  }
+    
+}
 .redessociales {
   display: flex;
   justify-content: center;
@@ -53,6 +74,7 @@ a img {
   align-content: center;
   align-items: baseline;
   flex-direction: row;
+  margin-left: 2.5rem;
 }
 
 .redessociales i {
@@ -60,7 +82,9 @@ a img {
   border-spacing: 10px;
   margin-left: 5px;
   margin-right: 5px;
+  
 }
+
 
 @media (min-width: 767.98px) {
   footer {

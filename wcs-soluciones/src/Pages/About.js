@@ -15,7 +15,7 @@ function About() {
         <section className="about-box">
           <div>
             <div className="card">
-              <img src={mv} className="card-img-right" alt="..." />
+              <img src={mv} className="card-img-right" alt="imagen nosotros" />
               <p className="card-text">
                 WCS es una empresa dedicada al diseño instalación de sistemas de
                 riego. Instalación de sistemas de bombeo agricola y recidencial.

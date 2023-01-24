@@ -14,10 +14,10 @@ export default function Asesoriadiseño() {
         <div className="col-sm-6">
           <div className="card">
             <div className="card-body">
-              <img src={servicios2} className="card-img-top" alt="" />
-              <img src={diseño1} className="card-img-top" alt="" />
-              <img src={diseño3} className="card-img-top" alt="" />
-              <img src={diseño2} className="card-img-top" alt="" />
+              <img src={servicios2} className="card-img-top" alt="imagen asesoria" />
+              <img src={diseño1} className="card-img-top"    alt="imagen asesoria" />
+              <img src={diseño3} className="card-img-top"    alt="imagen asesoria" />
+              <img src={diseño2} className="card-img-top"    alt="imagen asesoria" />
             </div>
           </div>
         </div>

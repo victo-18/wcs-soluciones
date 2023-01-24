@@ -16,13 +16,10 @@ export default function Asesoria() {
         <div className="col-sm-6">
           <div className="card">
             <div className="card-body">
-              <img src={asesoria1} className="card-img-top" alt="" />
-
-              <img src={asesoria2} className="card-img-top" alt="" />
-
-              <img src={asesoria3} className="card-img-top" alt="" />
-
-              <img src={asesoria4} className="card-img-top" alt="" />
+              <img src={asesoria1} className="card-img-top" alt="imagen asesoria" /> 
+              <img src={asesoria2} className="card-img-top" alt="imagen asesoria" /> 
+              <img src={asesoria3} className="card-img-top" alt="imagen asesoria" /> 
+              <img src={asesoria4} className="card-img-top" alt="imagen asesoria" />
             </div>
           </div>
         </div>
